@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/*
+background-image : using the function URL()
+place a string of the link you want to navigate to.
+
+background-repeat: norepeat prevents your background image from repeating over and over to keep 
+
+bakcground-size: cover makes the background image cover the whole screen.
+
+*/
+body {
+  background-image: url("https://miro.medium.com/max/1200/1*9IIoxOcIbhMFFKMCI2ncuQ.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*
+Text-align 
+  -justify : will give you a neet output for text.
+  -center : places text in the center of the container.
+*/
+
+
+h1:hover {
+  background-color: yellow;
+}
+
+a:active {
+  background-color: green;
+  color: yellow
+}
+
+a:hover {
+  background-color: lightblue;
+  color: orange
+}
+
+h1,
+a,
+h2,
+p {
+  color: white
+}
+
+/*
+ This is my first comment in CSS
+
+
+*/
